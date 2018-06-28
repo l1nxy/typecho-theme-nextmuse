@@ -111,7 +111,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn) {
     <?php while ($pages->next()): ?>
     <li class="menu-item menu-item-<?php echo $pages->slug; ?>">
                                 <a href="<?php $pages->permalink(); ?>" rel="section">
-                                    <i class="menu-item-icon fa fa-fw fa<?php echo getIconName($pages->slug); ?>"></i>
+                                    <i class="menu-item-icon fa fa-fw fa-<?php echo getIconName($pages->slug); ?>"></i>
                                     <br/>
                                     <?php $pages->title(); ?>
                                 </a>
