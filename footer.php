@@ -16,8 +16,8 @@
 
 <div class="theme-info">
   主题 -
-  <a class="theme-link" href="https://github.com/zgq354/typecho-theme-next">
-    NexT.Mist
+  <a class="theme-link" href="https://github.com/l1nxy/typecho-theme-nextmuse">
+    NexT.Muse
   </a>
 </div>
        </div>

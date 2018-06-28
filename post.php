@@ -12,29 +12,32 @@
                  </h1>
 
                  <div class="post-meta">
-                     <span class="post-time">
-                        发表于
-                        <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time>
-                    </span>
-
-
-                    <span class="post-category" >
-                      &nbsp; | &nbsp; 分类于
-
-                      <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                       <?php $this->category(' , '); ?>
-                   </span>
-
-
-               </span>
-
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <?php if(!empty($this->options->next_comments)): ?>
-                <a rel="nofollow" href="<?php $this->permalink() ?>#comments"><span class="ds-thread-count" data-thread-key="<?php echo $this->cid;?>" data-count-type="comments"></span></a>
-                <?php else: ?>
-                <a rel="nofollow" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('暂无评论', '1 条评论', '%d 条评论'); ?></a>
-                <?php endif; ?>
+                 <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+        <span class="post-time">
+          发表于
+          <time itemprop="dateCreated" datetime="<?php $this->date('c');?>" content="<?php $this->date('yy-m-d');?>">
+            <?php $this->date('Y-m-d');?>
+          </time>
+        </span>
+  
+        <span class="post-comments-count">
+        <span class="post-meta-divider">|</span>
+        <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                <span class="post-meta-item-text">本文字数：</span>
+                <span title="本文字数"><?php art_count($this->cid);?></span>
+                <span class="post-meta-divider">|</span>
+        <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+              <?php if (!empty($this->options->next_comments)): ?>
+               <a rel="nofollow" href="<?php $this->permalink()?>#comments"><span class="ds-thread-count" data-thread-key="<?php echo $this->cid; ?>" data-count-type="comments"></span></a>
+              <?php else: ?>
+              <a rel="nofollow" href="<?php $this->permalink()?>#comments"><?php $this->commentsNum('暂无评论', '1 条评论', '%d 条评论');?></a>
+              <?php endif;?>
        </span>
 
       </div>
@@ -56,16 +59,15 @@
     </div>
 
     <div class="post-nav">
-    
-    <div class="post-nav-prev post-nav-item">
-        <?php $this->thePrev('%s',''); ?>
-    </div>  
     <div class="post-nav-next post-nav-item">
-        <?php $this->theNext('%s',''); ?>
+        <?php $this->thePrev('%s' , '没有了');?>
+    </div>  
+    <span class="post-nav-divider"></span>
+    <div class="post-nav-prev post-nav-item">
+        <?php  $this->theNext('%s', '没有了'); ?>
     </div>
 
 </div>
-
 
 </footer>
 </article>

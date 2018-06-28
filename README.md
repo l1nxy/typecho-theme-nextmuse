@@ -1,17 +1,18 @@
 # typecho-theme-next
 
-简洁大方的 Hexo 主题 [Next.Mist](https://github.com/iissnan/hexo-theme-next) 的typecho移植版。
+# 概述
 
-[预览](http://blog.izgq.net/)
+![test](./screenshot.png)
+
+基于typecho版的`Next.Mixt`修改而成，万分感谢。
+
+简洁大方的 Hexo 主题 [Next.Muse](https://github.com/iissnan/hexo-theme-next) 的typecho移植版。
+
+[预览](http://loliko.me)
 
 NexT.Pisces传送门：[NexT.Pisces](https://github.com/newraina/typecho-theme-NexTPisces)
+Next.Mixt传送门：[Next.Mixt](https://github.com/zgq354/typecho-theme-next)
 
-###在Typecho 1.0版本测试通过
-
-1. 支持typecho原生评论(评论样式来自cho的Navy主题)，当然也支持多说（自行替换comments.php中的代码）。
-2. 侧边栏显示友情链接,友情链接只有在安装了 [Hanny](http://www.imhan.com/) 的 [Links插件](http://www.imhan.com/tag/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/) 才可显示,未安装不影响使用。
-3. 自带了分类归档页面模板
-4. js解析文章目录显示在侧边栏上(来自 http://howboring.us/ 的代码，在此表示感谢)
 
 ## 使用方法
 
@@ -21,6 +22,9 @@ NexT.Pisces传送门：[NexT.Pisces](https://github.com/newraina/typecho-theme-N
 4. 新建归档页，缩略名为 archive ，自定义模板选择 archive
 5. 新建标签页，缩略名为 tags ，自定义模板选择 tags
 6. 前往外观设置设置头像，昵称等等
+
+## 最后
+第一次写前端和php，有啥问题请提出来。
 
 # License
 

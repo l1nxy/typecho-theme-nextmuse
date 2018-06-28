@@ -102,7 +102,7 @@ background-size: auto 100%;
   </div>
 </header>
 <section>
-  <div class="title404"><p>每一个平凡的日常<br/>都是连续发生中的奇迹</p></div>
+  <div class="title404"><p>这里什么都没有<br/>只有你好奇的心</p></div>
   <a class="index404" rel="nofollow" href="<?php $this->options->siteUrl(); ?>">返回首页</a>
 </section>
 <footer id="footer404">

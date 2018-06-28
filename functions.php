@@ -77,3 +77,16 @@ function themeInit($archive) {
         $archive->parameter->pageSize = 10000; // 自定义条数
     }
 }
+function getIconName($slug)
+{
+    // 得到页面缩略名对应的字体图标名
+    $names = array('archive' => 'archive', 'about' => 'user', 'categories' => 'folder-open', 'tags' => 'tags', 'links' => 'users');
+    return $names[$slug];
+}
+
+function  art_count ($cid){
+    $db=Typecho_Db::get ();
+    $rs=$db->fetchRow ($db->select ('table.contents.text')->from ('table.contents')->where ('table.contents.cid=?',$cid)->order ('table.contents.cid',Typecho_Db::SORT_ASC)->limit (1));
+    $text = preg_replace("/[^\x{4e00}-\x{9fa5}]/u", "", $rs['text']);
+    echo mb_strlen($text,'UTF-8');
+}
