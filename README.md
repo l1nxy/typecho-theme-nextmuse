@@ -25,6 +25,7 @@ Next.Mixt传送门：[Next.Mixt](https://github.com/zgq354/typecho-theme-next)
 
 ## TODO
 * 搜索功能
+* 后台登陆入口
 
 ## 最后
 第一次写前端和php，有啥问题请提出来。
