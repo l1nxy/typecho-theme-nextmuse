@@ -84,6 +84,7 @@ function getIconName($slug)
     return $names[$slug];
 }
 
+//统计字数，只统计中文字数
 function  art_count ($cid){
     $db=Typecho_Db::get ();
     $rs=$db->fetchRow ($db->select ('table.contents.text')->from ('table.contents')->where ('table.contents.cid=?',$cid)->order ('table.contents.cid',Typecho_Db::SORT_ASC)->limit (1));

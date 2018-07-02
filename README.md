@@ -10,7 +10,7 @@
 
 [预览](http://loliko.me)
 
-NexT.Pisces传送门：[NexT.Pisces](https://github.com/newraina/typecho-theme-NexTPisces)
+NexT.Pisces传送门：[NexT.Pisces](https://github.com/newraina/typecho-theme-NexTPisces)  
 Next.Mixt传送门：[Next.Mixt](https://github.com/zgq354/typecho-theme-next)
 
 
@@ -23,8 +23,12 @@ Next.Mixt传送门：[Next.Mixt](https://github.com/zgq354/typecho-theme-next)
 5. 新建标签页，缩略名为 tags ，自定义模板选择 tags
 6. 前往外观设置设置头像，昵称等等
 
+## TODO
+* 搜索功能
+
 ## 最后
 第一次写前端和php，有啥问题请提出来。
+
 
 # License
 

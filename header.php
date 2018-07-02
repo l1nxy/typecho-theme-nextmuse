@@ -11,7 +11,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn) {
 <html class="theme-next <?php if (!empty($this->options->search_form) && in_array('Motion', $this->options->search_form)) {
     echo "use-motion ";
 }
-?>theme-next-mist">
+?>theme-next-muse">
 <head>
     <meta charset="<?php $this->options->charset();?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
