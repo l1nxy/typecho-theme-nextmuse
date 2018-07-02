@@ -22,8 +22,6 @@
 </div>
        </div>
 </footer>
-<div class="back-to-top"></div>
-</div>
 <script type="text/javascript" src="<?php $this->options->themeUrl('/vendors/jquery/index.js?v=2.1.3');?>"></script>
 <script type="text/javascript" src="<?php $this->options->themeUrl('/vendors/fancybox/source/jquery.fancybox.pack.js');?>"></script>
 <script type="text/javascript" src="<?php $this->options->themeUrl('/js/fancy-box.js?v=0.4.5.2');?>"></script>

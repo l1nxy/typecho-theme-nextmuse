@@ -25,7 +25,7 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn) {
     <link rel="stylesheet" type="text/css" href="<?php $this->options->themeUrl('/css/main.css?v=1.2.1');?>"/>
     <script type="text/javascript" id="hexo.configuration">
     var CONFIG = {
-        scheme: 'Mist',
+        scheme: 'Muse',
         motion: <?php if (!empty($this->options->search_form) && in_array('Motion', $this->options->search_form)) {
     echo "true";
 } else {
@@ -110,10 +110,10 @@ if (!empty($this->options->next_cdn) && $this->options->next_cdn) {
     <?php $this->widget('Widget_Contents_Page_List')->to($pages);?>
     <?php while ($pages->next()): ?>
     <li class="menu-item menu-item-<?php echo $pages->slug; ?>">
-                                <a href="<?php $pages->permalink(); ?>" rel="section">
+                                <a href="<?php $pages->permalink();?>" rel="section">
                                     <i class="menu-item-icon fa fa-fw fa-<?php echo getIconName($pages->slug); ?>"></i>
                                     <br/>
-                                    <?php $pages->title(); ?>
+                                    <?php $pages->title();?>
                                 </a>
                             </li>
 <?php endwhile;?>
