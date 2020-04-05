@@ -8,7 +8,7 @@
 
 简洁大方的 Hexo 主题 [Next.Muse](https://github.com/iissnan/hexo-theme-next) 的typecho移植版。
 
-[预览](http://loliko.me)
+[预览](https://l1nxy.me)
 
 NexT.Pisces传送门：[NexT.Pisces](https://github.com/newraina/typecho-theme-NexTPisces)  
 Next.Mixt传送门：[Next.Mixt](https://github.com/zgq354/typecho-theme-next)
